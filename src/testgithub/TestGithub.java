@@ -27,6 +27,7 @@ public class TestGithub {
         int sum;
         sum = a + b +c;
         System.out.println("tổng 3 số là: " + sum);
+        System.out.println("hello");
 
     }
 

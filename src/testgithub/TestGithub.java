@@ -4,6 +4,8 @@
  */
 package testgithub;
 
+import java.util.Scanner;
+
 /**
  *
  * @author hoang
@@ -14,7 +16,18 @@ public class TestGithub {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int a, b, c;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhập a: ");
+        a = sc.nextInt();
+        System.out.println("Nhập b: ");
+        b = sc.nextInt();
+        System.out.println("Nhập c: ");
+        c = sc.nextInt();
+        int sum;
+        sum = a + b +c;
+        System.out.println("tổng 3 số là: " + sum);
+
     }
-    
+
 }
